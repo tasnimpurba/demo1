@@ -1,0 +1,39 @@
+/* Example of CSS animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.card {
+  animation: fadeIn 1s ease-out;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+#image-slider {
+  margin-bottom: 40px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}  
